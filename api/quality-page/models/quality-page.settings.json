@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quality_pages",
+  "info": {
+    "name": "qualityPage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "TopText": {
+      "type": "string"
+    },
+    "KeyenceParagraph": {
+      "type": "richtext"
+    },
+    "cmmParagraph": {
+      "type": "string"
+    },
+    "measurelinktext": {
+      "type": "string"
+    }
+  }
+}

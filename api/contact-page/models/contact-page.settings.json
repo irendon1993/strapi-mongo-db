@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "contact_pages",
   "info": {
-    "name": "Contact Page"
+    "name": "Contact Page",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -10,8 +11,11 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "topText": {
-      "type": "richtext"
+    "contactHeader": {
+      "type": "text"
+    },
+    "adasda": {
+      "type": "text"
     }
   }
 }

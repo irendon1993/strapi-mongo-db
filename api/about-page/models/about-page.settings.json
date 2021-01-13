@@ -23,7 +23,7 @@
       "required": false
     },
     "topSecondParagraph": {
-      "type": "text"
+      "type": "string"
     },
     "bottomFirstParagraph": {
       "type": "text"
