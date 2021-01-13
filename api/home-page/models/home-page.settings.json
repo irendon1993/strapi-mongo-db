@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "home_pages",
   "info": {
-    "name": "Home Page"
+    "name": "Home Page",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,7 +12,25 @@
   },
   "attributes": {
     "HeroText": {
-      "type": "richtext"
+      "type": "text"
+    },
+    "LightsFirstParagraph": {
+      "type": "text"
+    },
+    "LightsSecondParagraph": {
+      "type": "text"
+    },
+    "KanbanFirstParagraph": {
+      "type": "text"
+    },
+    "KanbanSecondParagraph": {
+      "type": "text"
+    },
+    "QualityFirstParagraph": {
+      "type": "text"
+    },
+    "QualitySecondParagraph": {
+      "type": "text"
     }
   }
 }
